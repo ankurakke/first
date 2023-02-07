@@ -13,6 +13,6 @@ public class FirstApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Hello World");
+		System.out.println("Test github webhook");
 	}
 }
