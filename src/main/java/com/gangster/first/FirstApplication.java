@@ -9,11 +9,10 @@ public class FirstApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FirstApplication.class, args);
-		System.out.println("Hello World");
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("hello");
+		System.out.println("Test github webhook deploy");
 	}
 }
